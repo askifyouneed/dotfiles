@@ -1,0 +1,13 @@
+startup_message off
+deflogin off
+defnonblock 5
+termcapinfo xterm*|rxvt* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+termcapinfo xterm*|rxvt* ti@:te@
+vbell off
+altscreen on
+bind ^v screen -t ROOT su -
+hardstatus alwayslastline
+hardstatus string '%{= kb}[ %{b}%H %{}][%= %{b}%?%-Lw%?%{b}(%{b}%n*%f%t%{b})%{b}%?%+Lw%?%? %=%{b}][%{b} %c %{b}]'
+defscrollback 1024
+screen 0
+attrcolor b ".I"

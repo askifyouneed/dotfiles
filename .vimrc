@@ -1,0 +1,13 @@
+:set number
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
+:set smartindent
+:set autoindent
+:set laststatus=2
+:set paste
+:set title
+:set ignorecase
+:set ruler
+:set wildmenu
+:color desert
